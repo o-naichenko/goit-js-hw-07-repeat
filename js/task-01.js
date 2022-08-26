@@ -14,9 +14,9 @@ const categoriesListRef = document.querySelector('#categories')
 
 const categoriesAmount = categoriesListRef.children.length
 console.log(`В списку ${categoriesAmount} категорій`)
-console.log(categoriesAmount)
+// console.log(categoriesAmount)
 const categoriesItemsRefs = document.querySelectorAll('.item')
-console.log(categoriesItemsRefs)
+// console.log(categoriesItemsRefs)
 
 categoriesItemsRefs.forEach((item) => {
   const categoryName = item.firstElementChild.textContent
